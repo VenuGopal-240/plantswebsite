@@ -1,0 +1,36 @@
+export const plant = [
+    { id: 1, name: 'Mango', price: 20, image: 'https://cdn.shopify.com/s/files/1/0062/8532/8445/products/Glenn_Mango_1_BB_1024x1024.jpg?v=1592403209', region: 'Andhra Pradesh',category:'fruits' },
+    { id: 2, name: 'Banana', price: 10, image: 'https://th.bing.com/th/id/OIP.o2nFV4N6wnTPurzHRp56jgHaHa?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh',category:'fruits' },
+    { id: 3, name: 'Guava', price: 15, image: 'https://th.bing.com/th/id/OIP.aetwZvZmG8RwmBhJs5XL-gHaEu?w=300&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh',category:'fruits' },
+    { id: 4, name: 'Papaya', price: 12, image: 'https://th.bing.com/th/id/OIP.eZKLH3CVAaCTKamqXw4jIwHaEK?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh' ,category:'fruits'},
+    { id: 5, name: 'Pomegranate', price: 30, image: 'https://th.bing.com/th/id/OIP.E_Z4IJvH7ibWCBuRXkckaAHaFj?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh' ,category:'fruits'},
+    { id: 6, name: 'Sapota', price: 18, image: 'https://5.imimg.com/data5/SELLER/Default/2022/12/ER/OV/XM/77590722/sapota-fruit-plant-nursery-1000x1000.jpg', region: 'Andhra Pradesh' ,category:'fruits'},
+    { id: 7, name: 'Watermelon', price: 25, image: 'https://th.bing.com/th/id/OIP.bwRutfpalndNPabSB-_AGgHaHa?w=720&h=720&rs=1&pid=ImgDetMain', region: 'Andhra Pradesh' ,category:'fruits'},
+    { id: 8, name: 'Custard Apple', price: 35, image: 'https://th.bing.com/th/id/OIP.ck5utiXtbrRFMQX0tkm6jAHaD4?w=317&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh',category:'fruits' },
+    { id: 9, name: 'Jackfruit', price: 50, image: 'https://th.bing.com/th/id/OIP.81XJ7TH6h2m8CqmCjA5aowHaFj?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh' ,category:'fruits'},
+    { id: 10, name: 'Orange', price: 40, image: 'https://th.bing.com/th/id/OIP.eojfr3tGeNS9rMKrbxVGCgAAAA?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh',category:'fruits' },
+  
+    { id: 11, name: 'Rose', price: 20, image: 'https://nurserylive.com/cdn/shop/products/nurserylive-g-plants-rose-dark-pink-plant-in-grower-round-black-pot-922015_600x600.jpg?v=1679751054', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 12, name: 'Jasmine', price: 10, image: 'https://img2.exportersindia.com/product_images/bc-full/2019/6/4538795/jasmine-plant-1559644197-4936463.jpeg', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 13, name: 'Marigold', price: 15, image: 'https://th.bing.com/th/id/R.218b89d8e554f4fe9bd9c42b4d7e85d6?rik=y7pXkdVDv9gk0Q&riu=http%3a%2f%2fnurserylive.com%2fcdn%2fshop%2fproducts%2fnurserylive-g-african-marigold-orange-plant-153227.jpg%3fv%3d1679749014&ehk=9UiBcSLzjgpnp9Xml6vb4gp5onUwPreJ881YuyxONN0%3d&risl=&pid=ImgRaw&r=0', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 14, name: 'Hibiscus', price: 12, image: 'https://th.bing.com/th/id/OIP.k732H7JAsPAH_1r3k0dD9gHaHa?w=181&h=191&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 15, name: 'Lotus', price: 30, image: 'https://th.bing.com/th/id/OIP.E21I7FXeI-7JpCzjdriI2AHaHa?w=172&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 16, name: 'Bougainvillea', price: 18, image: 'https://th.bing.com/th/id/OIP.bcquV6CWXkzBVveXmeYpygHaLH?w=130&h=195&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 17, name: 'Sunflower', price: 25, image: 'https://th.bing.com/th/id/OIP.Mqb8zBupZyBdxtuDSblw0QHaHt?w=135&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 18, name: 'Daisy', price: 35, image: 'https://th.bing.com/th/id/OIP.f3mTlaRiuA5BQtwgr-P0twHaHa?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 19, name: 'Tulip', price: 50, image: 'https://th.bing.com/th/id/OIP.9aOPoE5mq8oXO_VbQMSw_wHaFj?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Flower' },
+    { id: 20, name: 'Orchid', price: 40, image: 'https://thumbs.dreamstime.com/z/plant-nursery-orchids-19222.jpg', region: 'Andhra Pradesh', category: 'Flower' },
+  
+    { id: 21, name: 'Areca Palm', price: 500, image: 'https://i.pinimg.com/originals/6a/6b/80/6a6b803e1627da8aee273c2a3f9897c0.jpg', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 22, name: 'Snake Plant', price: 300, image: 'https://th.bing.com/th/id/OIP.y_mo79ipmHqTJtaytwVLcAHaHi?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 23, name: 'Spider Plant', price: 250, image: 'https://nurserynisarga.in/wp-content/uploads/2019/09/20201201022514_IMG_0072.jpg', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 24, name: 'Peace Lily', price: 400, image: 'https://th.bing.com/th/id/OIP.NosYtM2mHvQcJc18DMF9JQHaHa?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 25, name: 'Money Plant', price: 200, image: 'https://th.bing.com/th/id/OIP.acXowH0Ofwy89RN_qm7zKAAAAA?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 26, name: 'Aloe Vera', price: 150, image: 'https://th.bing.com/th/id/R.4517cf278c8b20122b1a3a762b34a6a4?rik=A1q6z4GvZpsWnA&riu=http%3a%2f%2fcdn.shopify.com%2fs%2ffiles%2f1%2f0047%2f9730%2f0847%2fproducts%2fnurserylive-plants-aloe-vera-succulent-plant-16968585871500.jpg%3fv%3d1601351073&ehk=KtlqQgFjrQ0xvsxjhxq4aWn7dhCXyB0XdKo1UA2GDgA%3d&risl=&pid=ImgRaw&r=0', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 27, name: 'Rubber Plant', price: 600, image: 'https://www.campbellsnursery.com/wp-content/uploads/2020/08/Rubber-Plant-Burgundy.jpg', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 28, name: 'Boston Fern', price: 350, image: 'https://th.bing.com/th/id/OIP.OGF5nAl6gb7yFRrLYM9GCwHaHa?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 29, name: 'Bamboo Palm', price: 450, image: 'https://th.bing.com/th/id/OIP.EAhbRK_iuokaJVMRd0fPsgHaJ3?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+    { id: 30, name: 'ZZ Plant', price: 700, image: 'https://th.bing.com/th/id/OIP.tEmXxAljbHQjXKE5KacknAHaHa?rs=1&pid=ImgDetMain', region: 'Andhra Pradesh', category: 'Indoor Plant' },
+  
+  
+  ];

@@ -1,0 +1,24 @@
+.gridContainer {
+    display: 'grid';
+    grid-template-columns: 'repeat(3, 1fr)';
+    gap: '20px';
+    padding: '20px';
+    background-color: 'blue';
+}
+
+.card {
+    border: '1px solid #ddd';
+    border-radius: '8px';
+    padding: '10px';
+    text-align: 'center';
+    box-shadow: '0 4px 6px rgba(0, 0, 0, 0.1)';
+}
+
+.image {
+    width: '100%';
+    height: '300px';
+    object-fit: 'cover';
+    border-radius: '4px';
+    transition: 'transform 0.3s ease';
+    cursor: 'pointer';
+}
