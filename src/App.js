@@ -20,25 +20,7 @@ import Tree from './A__Hospital_sample/Example/Tree';
 import OperationForm from './A_DoctorMan/DoctorModule.jsx/Create_OP';
 import MainPage from './ResumeTemplate/Mainpage';
 import CartWithBadge from './Example/Example';
-// import { plant } from './PlantsData/PlantsData';
-// import MiniDrawer from './TE/MiniDrawer';
-// import { HashRouter, Navigate, Outlet, Route, Routes } from 'react-router-dom';
-// import LoginPage from './LoginPage/LoginPage';
-// import Profile from './TE/Profile';
-// import TimeSheet from './TE (1)/TimeSheet';
-// import { createContext, useState } from 'react';
-// import Admin from './Admin/Admin';
-// import Mentee from './Mentee/Mentee';
-// import { menteeData } from './Mentee/MenteeData';
-// // import StickyHeadTable from './Random';
-// import Notification from './Notifications/Notifications';
-// import AdminTimeSheet from './Admin/AdminTimeSheet';
-// import AdminOperation from './Admin/AdminOperation';
-// import Loader from './Loader/Loader';
-// import MiniDrawer from './TE (1)/MiniDrawer';
-// import TimeSheet from './TE (1)/TimeSheet (1)';
-// import Profile from './TE (1)/Profile (1)';
-// import LoginPage from './LoginPage (1)/LoginPage (1)';
+
 const plant = [
 
   { id: 1, name: 'Mango', price: 20, image: 'https://cdn.shopify.com/s/files/1/0062/8532/8445/products/Glenn_Mango_1_BB_1024x1024.jpg?v=1592403209', region: 'Andhra Pradesh', category: 'fruits', quantity: 1, cartStatus: false, total: 0, description: 'A tropical fruit known for its sweetness and nutritional value, widely consumed fresh or in juices and desserts.' },
@@ -148,61 +130,10 @@ const Layout = () => (
 
 export const MyContext = createContext("");
 
-// export const myProvider = createContext();
+
 
 function App() {
-  // const [userData, setUserData] = useState(sessionStorage.getItem("user"));
-  // const [data, setData] = useState(menteeData);
-  // const [notification, setNotification] = useState([]);
-  // const [isLoaded, setIsLoaded] = useState(true);
-  // return (
-  //   <myProvider.Provider value={{ userData, setUserData, data, setData, notification, setNotification, isLoaded, setIsLoaded }}>
-  //     <Notification />
-  //     <Loader />
-  //     <HashRouter>
-  //       <Routes>
-  //         <Route index element={<Navigate to="/loginPage" />} />
-  //         <Route path="/loginPage" element={<LoginPage />} />
-  //         <Route
-  //           path="/header"
-  //           element={
-  //             <MiniDrawer name={[{ name: "TimeSheet", navigate: "/header/timesheet" }, { name: "Profile", navigate: "/header/profile" }]}>
-  //               <Outlet />
-  //             </MiniDrawer>
-  //           }
-  //         >
-  //           <Route index element={<Navigate to="/header/timesheet" />} />
-  //           <Route path="/header/timesheet" element={<TimeSheet />} />
-  //           <Route path="/header/profile" element={<Profile />} />
-  //         </Route>
-  //         <Route
-  //           path="/header"
-  //           element={
-  //             <MiniDrawer name={[{ name: "TimeSheet", navigate: "/header/admintimesheet" }, { name: "AdminStudentSheet", navigate: "/header/studentlist" }]}>
-  //               <Outlet />
-  //             </MiniDrawer>
-  //           }
-  //         >
-  //           <Route index element={<Navigate to="/header/admintimesheet" />} />
-  //           <Route path="/header/admintimesheet" element={<AdminTimeSheet />} />
-  //           <Route path="/header/studentlist" element={<Admin />} />
-  //           <Route path="/header/adminoperations" element={<AdminOperation />} />
-  //         </Route>
-  //         <Route
-  //           path="/header"
-  //           element={
-  //             <MiniDrawer name={[{ name: "MenteeSheet", navigate: "/header/mentee" }]}>
-  //               <Outlet />
-  //             </MiniDrawer>
-  //           }
-  //         >
-  //           <Route index element={<Navigate to="/header/mentee" />} />
-  //           <Route path="/header/mentee" element={<Mentee />} />
-  //         </Route>
-  //       </Routes>
-  //     </HashRouter>
-  //   </myProvider.Provider>
-  // )
+ 
 
   const [originals, setOriginals] = useState(plant);
   const [plants, setPlants] = useState(plant);
@@ -253,28 +184,7 @@ function App() {
         <Footer/>
       </MyContext.Provider>
 
-    {/* <MainPage/> */}
-
-      {/* <ResponsiveAppBar/>
-      <AnchorTemporaryDrawer/> */}
-
-      {/* <MiniDrawer/> */}
-
-      {/* <DoctorLoginPage /> */}
-      {/* <HashRouter>
-        <Routes>
-          <Route index element={<Navigate to="/login" />} />
-          <Route path="/login" element={<DoctorLoginPage />} />
-            <Route index element={<Navigate to="/home/home" />} />
-            <Route path="/home/home" element={<MiniDrawer />} />
-
-          <Route path="/login" element={<DoctorLoginPage />} />
-        </Routes>
-      </HashRouter> */}
-  {/* <OperationForm/> */}
-      {/* <Definations/> */}
-      {/* <TreeForm/> */}
-      {/* <Tree/> */}
+    
     </>
   );
 }
@@ -283,14 +193,3 @@ export default App;
 
 
 
-{/* <HashRouter>
-          <Routes>
-            <Route index element={<Navigate to="/header" />} />
-            <Route path="/header" element={<Layout />}>
-              <Route path="/header/home" element={<Home />} />
-              <Route path="/header/shop" element={<Shop />} />
-              <Route path="/header/cart" element={<Cart/>} />
-              <Route path="/header/contact" element={<Contact />} />
-            </Route>
-          </Routes>
-        </HashRouter> */}
